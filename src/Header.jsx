@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Header = () => {
   return (
     <header className="bg-gray-900 text-white py-4 px-8 flex justify-between items-center">
@@ -17,5 +18,7 @@ const Header = () => {
     </header>
   );
 };
+
+
 
 export default Header;

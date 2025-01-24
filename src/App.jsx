@@ -20,6 +20,7 @@ import Header from "./Header";
 
 
 
+
 const App = () => {
   return (
     <Router>
@@ -51,6 +52,7 @@ const App = () => {
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
       <Footer />
+      
     </Router>
   );
 };
